@@ -28,14 +28,14 @@ width: 80%;
 }
 .rectangle-34 img{
 width: 100%;
-height: 150px;
+min-height: 150px;
 border-radius: 20px;
 }
 .no-despreze-a-sua-m {
 letter-spacing: 0;
 line-height: normal;
 margin-left: 1px;
-margin: 15px 0 10px 0px;
+margin: 80px 0 10px 0px;
 min-height: auto;
 text-align: center;
 font-family: 'Playball', cursive;
@@ -93,7 +93,7 @@ box-shadow: 0px 4px 4px #00000840;
 display: flex;
 gap: 45px;
 height: auto;
-margin: 60px 0 8px 0;
+margin: 35px 0 8px 0;
 padding: 10px;
 }
 .clipboard-list {
