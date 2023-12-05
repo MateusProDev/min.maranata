@@ -8,6 +8,7 @@ padding: 0;
     background-color: #fff;
     box-shadow: 5px 5px 5px 5px#0000001a;
     margin: 10px;
+    height: 100vh;
 }
 .iphone-14-plus-7 { 
 align-items: center; background-color: #fff;
@@ -17,6 +18,7 @@ width: 100%;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+height: 100vh;
 }
 .hidden,
 .hidden * {
@@ -276,3 +278,4 @@ margin-bottom: 60px;
       transform: translateX(-100%); /* Move para a esquerda */
     }
   }
+
