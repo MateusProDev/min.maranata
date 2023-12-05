@@ -20,6 +20,10 @@ background-repeat: no-repeat;
 background-size: cover;
 height: 100vh;
 }
+#versao{ 
+  font-size: 11px;
+  margin: -10px 0 -10px -100px;
+}
 .hidden,
 .hidden * {
 pointer-events: none;
