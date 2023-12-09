@@ -1,0 +1,19 @@
+[build]
+  publish = "dist"  # Diretório que contém os arquivos a serem publicados
+  command = "npm run build"  # Comando para construir o projeto
+
+[context.production.environment]
+  # Variáveis de ambiente para o ambiente de produção
+  NODE_ENV = "production"
+
+[context.deploy-preview]
+  # Configurações para deploys de previews (ramos/branches não-master)
+  command = "npm run build-preview"
+  publish = "preview-dist"
+
+[context.branch-deploy]
+  # Configurações para deploys de branches
+  command = "npm run build-branch"
+  publish = "branch-dist"
+
+# Configurações adicionais conforme necessário
