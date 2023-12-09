@@ -16,6 +16,7 @@
                 </div>
                 <div class="min-maranata animate-slide-in">Min. MARANATA</div>
             </div>
+            <p id="versao"><em>Versão 0.1</em></p>
             <div class="rectangle-34 animate-slide-in">
                 <img src="img/banner min.jpeg" alt="">
             </div>
@@ -72,6 +73,18 @@
                 <a href="sala.html"><img class="pray" src="img/Pray.png" alt="Pray"/></a>
             </div>
         </div>
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+        <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", (user) => {
+            if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+                });
+            }
+            });
+        }
+        </script>
     </div>
 </body>
 </html>
