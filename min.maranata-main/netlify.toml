@@ -17,3 +17,6 @@
   publish = "branch-dist"
 
 # Configurações adicionais conforme necessário
+
+[[plugins]]
+  package = "@netlify/plugin-functions"
