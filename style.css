@@ -23,7 +23,7 @@ height: 100vh;
 }
 #versao{ 
   font-size: 11px;
-  margin: -10px 0 -10px -170px;
+  margin: -10px 0 -10px -150px;
   color: #c7c7c7;
 }
 .hidden,
@@ -34,9 +34,8 @@ visibility: hidden;
 
 .rectangle-34{
 width: 100%;
-height: 200px;
+height: 150px;
 min-height: auto;
-border-radius: 20px;
 box-shadow: 0px 4px 4px #00000040;
 margin-top: 20px;
 max-height: 50vh;
@@ -45,7 +44,7 @@ max-height: 50vh;
 letter-spacing: 0;
 line-height: normal;
 margin-left: 1px;
-margin: 100px 0 10px 0px;
+margin: 50px 0 10px 0px;
 min-height: auto;
 text-align: center;
 font-family: 'Playball', cursive;
@@ -74,6 +73,7 @@ box-shadow: 0px 4px 4px #80008840;
 display: flex;
 padding: 8px 10px;
 font-size: 11px;
+border-radius: 10px;
 }
 .overlap-group3:hover {
 background-color: #d37e2e;
@@ -279,13 +279,15 @@ margin-bottom: 60px;
   }
   .carousel-inner {
     width: 70%;
-    height: 290px;
+    height: 200px;
     margin-left: auto;
     margin-right: auto;
     background-image: url('img/WhatsApp\ Image\ 2023-12-04\ at\ 16.17\ 1.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    box-shadow: 4px 4px 4px #4141419f;
+    border-radius: 0 0 15px 15px;
   }
   .banner_rolate {
     width: 100%;
