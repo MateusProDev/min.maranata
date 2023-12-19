@@ -2,8 +2,12 @@
     align-items: center; background-color: #fff;
     display: flex;
     flex-direction: column;
-    width: 100%;background-image: url('img/fundo2.jpg');
+    width: 100%;
+    background-image: url('img/fundo2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+#versao{
+    color: #777777;
 }
