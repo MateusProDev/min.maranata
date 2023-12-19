@@ -318,7 +318,7 @@ margin-bottom: 60px;
     }
 
     .tela-app {
-        height: auto; /* Ajustar a altura conforme necessário para iPhones */
+        height: 100vh; /* Ajustar a altura conforme necessário para iPhones */
     }
 
 
