@@ -23,7 +23,7 @@ height: 100vh;
 }
 #versao{ 
   font-size: 11px;
-  margin: -10px 0 -10px -120px;
+  margin: 25px 0 -10px -158px;
   color: #c7c7c7;
 }
 .hidden,
@@ -205,8 +205,10 @@ margin-bottom: 60px;
 
 .form_box{
     width: auto;
+    height: auto;
     box-shadow: 4px 4px 4px 4px #33333333;
     padding-top: 20px;
+    margin-top: -20px;
   }
   h2 {
     font-size: 18px;
@@ -306,3 +308,23 @@ margin-bottom: 60px;
     }
   }
 
+/* Consulta de mídia para iPhones */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    body {
+        font-size: 14px; /* Ajustar o tamanho da fonte para iPhones */
+    }
+
+    .tela-app {
+        height: auto; /* Ajustar a altura conforme necessário para iPhones */
+    }
+
+
+    .no-despreze-a-sua-m {
+        font-size: 18px; /* Ajustar o tamanho da fonte para iPhones */
+        margin: 30px 0 10px 0px; /* Ajustar as margens para iPhones */
+    }
+    /* Adicione mais estilos conforme necessário */
+}
